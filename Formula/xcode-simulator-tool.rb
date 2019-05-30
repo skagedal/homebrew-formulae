@@ -14,4 +14,10 @@ class XcodeSimulatorTool < Formula
   test do
     system "#{bin}/xcode-simulator-tool" "list-devices"
   end
+
+  bottle do
+    root_url "https://github.com/skagedal/xcode-simulator-tool/releases/download/0.1.0/"
+    cellar :any_skip_relocation
+    sha256 "e6da1be210b440187405ff5fe0809958daeb5d3dd1d3a9e6303f4c52678fa526" => :mojave
+  end
 end
