@@ -1,4 +1,4 @@
-class XcodeSimulatorTool < Formula
+class XcodeSimulatorCert < Formula
   desc "Manage Xcode simulators and their Certificate Authorities"
   homepage "https://github.com/skagedal/xcode-simulator-cert"
   url "https://github.com/skagedal/xcode-simulator-cert.git",
