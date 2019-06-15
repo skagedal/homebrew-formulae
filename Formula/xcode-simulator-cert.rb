@@ -1,8 +1,8 @@
 class XcodeSimulatorTool < Formula
   desc "Manage Xcode simulators and their Certificate Authorities"
-  homepage "https://github.com/skagedal/xcode-simulator-tool"
-  url "https://github.com/skagedal/xcode-simulator-tool.git",
-      :tag => "0.1.0", :revision => "5fb7d6ebc0fb90d6d2edc95199619e032a33aace"
+  homepage "https://github.com/skagedal/xcode-simulator-cert"
+  url "https://github.com/skagedal/xcode-simulator-cert.git",
+      :tag => "0.2.0", :revision => "9ddde6e92ce40d68907c49f1bfcd9e1cf5397923"
   head "https://github.com/skagedal/xcode-simulator-tool.git"
 
   depends_on :xcode => ["10.2", :build]
