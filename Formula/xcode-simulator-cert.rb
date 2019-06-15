@@ -12,6 +12,6 @@ class XcodeSimulatorCert < Formula
   end
 
   test do
-    system "#{bin}/xcode-simulator-cert" "list-devices"
+    system "#{bin}/xcode-simulator-cert" "list"
   end
 end
